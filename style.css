@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    background-color: #E5E5E5;
+}
+
+div.content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    background-color:white;
+}
+
+
+div.travel{
+    display: flex;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #F5F5F5;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.travel--img{
+    width: 126px;
+    object-fit: cover;
+    height: 168px;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+
+div.travel--location{
+    display: flex;
+    align-items: center;
+    margin-top: .15em;
+
+}
+
+
+.travel--location-icon {
+    color:#F55A5A;
+    font-size: 0.75rem;
+    margin-right: 0.5em;
+}
+
+
+div.travel--location > p{
+    color:#2B283A;
+    font-weight: 400;
+    font-size: 0.64rem;
+    text-transform: uppercase;
+    margin-right: 1.25em;
+}
+
+div.travel--location > a{
+    color:#918E9B;
+    font-weight: 400;
+    font-size: 0.64rem;
+    text-decoration: none;
+    border-bottom: 1px solid #918E9B;
+}
+
+.travel--description > h1{
+    font-size: 1.56rem;
+    color: #2B283A;
+    font-weight: 700;
+    margin: 0 0 .5em;
+}
+
+.travel--dates{
+    font-size: 0.64rem;
+    color: #2B283A;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.travel--details{
+    font-size: 0.64rem;
+    color: #2B283A;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+
+/* Header */
+
+.header{
+    background-color: #F55A5A;
+    margin-bottom: 2em;
+    color: white;
+}
+
+
+.header-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: .5em;
+   
+}
+
+.header-details > i{
+    margin-right: 0.5em;
+}
+
+.header-text{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
